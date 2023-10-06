@@ -1,0 +1,41 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title>
+    <style>
+        body {
+            background-image: url(background.jpg);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2>CONVERSOR DE UNIDADES DE DISTÂNCIA</h2>
+        <div class="fila">
+            <span> Converter de: </span>
+            <select name="unidad1" id="unidad1">
+                <option value="Quilometro">Quilômetro</option>
+                <option value="Metro">Metro</option>
+                <option value="Centimetro">Centimetro</option>
+            </select>
+            <span> Para: </span>
+            <select name="unidad2" id="unidad2">
+                <option value="Quilometro">Quilômetro</option>
+                <option value="Metro">Metro</option>
+                <option value="Centimetro">Centimetro</option>
+            </select>
+        </div>
+
+        <input type="number" id="valor" placeholder="Distancia">
+
+        <div class="resultado" id="resultado">
+            .. .. .. .. 
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
